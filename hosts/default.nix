@@ -50,13 +50,13 @@
   ];
 in {
   # My Main Desktop
-  sushi = mkNixosSystem {
+  bebop = mkNixosSystem {
     inherit withSystem;
-    hostname = "sushi";
+    hostname = "bebop";
     system = "x86_64-linux";
     modules =
       [
-        ./sushi
+        ./bebop
         graphical
         workstation
         laptop

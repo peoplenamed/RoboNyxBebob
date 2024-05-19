@@ -4,7 +4,7 @@ let
   flakeRoot = ./../.;
 
   #Chnage this :)
-  mainUser = "sincore";
+  mainUser = "nerd";
   #Anything you add in this file will be globally avaliable under self.globals
 in {
   inherit flakeRoot;
