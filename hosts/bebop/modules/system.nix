@@ -2,7 +2,7 @@
   modules.system = {
     mainUser = "nerd";
     fs = ["btrfs" "ext4" "vfat" "ntfs"];
-    impermanence.root.enable = true;
+    impermanence.root.enable = false;
     autoLogin = true;
 
     boot = {
@@ -21,8 +21,8 @@
 
     networking = {
       tailscale = {
-        enable = true;
-        autoConnect = true;
+        enable = false;
+        autoConnect = false;
       };
     };
 
