@@ -5,32 +5,27 @@
     "/" = {
       device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
       fsType = "ext4";
-      options = ["subvol=root"];
     };
 
     "/home" = {
       device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
       fsType = "ext4";
-      options = ["subvol=home"];
     };
 
     "/nix" = {
       device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
       fsType = "ext4";
-      options = ["subvol=nix"];
     };
 
-    "/persist" = {
-      device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
-      fsType = "ext4";
-      options = ["subvol=persist"];
-      neededForBoot = true;
-    };
+#    "/persist" = {
+#      device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
+#      fsType = "ext4";
+#      neededForBoot = true;
+#    };
 
     "/var/log" = {
       device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
       fsType = "ext4";
-      options = ["subvol=log"];
       neededForBoot = true;
     };
 
@@ -40,7 +35,10 @@
     };
   };
 
-#  swapDevices = [
-#    {device = "/dev/disk/by-uuid/0d1fc824-623b-4bb8-bf7b-63a3e657889d";}
-#  ];
+  swapDevices = [
+    {
+      device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
+      size = 32 * 1024;
+    }
+  ];
 }

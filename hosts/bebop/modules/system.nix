@@ -16,8 +16,8 @@
     video.enable = true;
     sound.enable = true;
     bluetooth.enable = false;
-    printing.enable = true;
-    printing."3d".enable = true;
+    printing.enable = false;
+    printing."3d".enable = false;
 
     networking = {
       tailscale = {
@@ -27,12 +27,12 @@
     };
 
     security = {
-      fprint.enable = true;
+      fprint.enable = false;
     };
 
     virtualization = {
-      enable = true;
-      docker.enable = true;
+      enable = false;
+      docker.enable = false;
       qemu.enable = false;
       podman.enable = false;
     };
@@ -58,7 +58,7 @@
 
       google-chrome.enable = true;
       signal-desktop.enable = true;
-      nordpass.enable = true;
+      nordpass.enable = false;
       gimp.enable = false;
 
       default = {
