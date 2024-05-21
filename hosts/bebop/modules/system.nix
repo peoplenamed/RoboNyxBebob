@@ -8,8 +8,8 @@
 
     boot = {
       loader = "systemd-boot";
-      enableKernelTweaks = false;
-      initrd.enableTweaks = false;
+      enableKernelTweaks = true;
+      initrd.enableTweaks = true;
       loadRecommendedModules = true;
       tmpOnTmpfs = false;
     };

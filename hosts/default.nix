@@ -59,7 +59,7 @@ in {
         ./bebop
         graphical
         workstation
-#        laptop
+        laptop
       ]
       ++ concatLists [shared homes];
     specialArgs = {inherit lib;};
