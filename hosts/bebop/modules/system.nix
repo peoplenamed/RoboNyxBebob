@@ -3,7 +3,7 @@
     mainUser = "nerd";
     fs = ["btrfs" "ext4" "vfat" "ntfs"];
     impermanence.root.enable = false;
-    autoLogin = true;
+    autoLogin = false;
 
     boot = {
       loader = "systemd-boot";
