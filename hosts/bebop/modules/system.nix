@@ -1,16 +1,17 @@
 {
   modules.system = {
     mainUser = "nerd";
-    fs = ["btrfs" "ext4" "vfat" "ntfs"];
+#    fs = ["btrfs" "ext4" "vfat" "ntfs"];
+    fs = ["ext4" "vfat" "ntfs"];
     impermanence.root.enable = false;
     autoLogin = false;
 
     boot = {
       loader = "systemd-boot";
-      enableKernelTweaks = true;
-      initrd.enableTweaks = true;
+      enableKernelTweaks = false;
+      initrd.enableTweaks = false;
       loadRecommendedModules = true;
-      tmpOnTmpfs = true;
+      tmpOnTmpfs = false;
     };
 
     video.enable = true;
