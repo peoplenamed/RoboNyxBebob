@@ -3,15 +3,6 @@
 
   fileSystems = {
 
-    boot = {
-      initrd = {
-        availableKernelModules = ["nvme" "xhci_pci" "thunderbolt" "usb_storage" "sd_mod"];
-        kernelModules = [];
-      };
-      kernelModules = ["kvm-amd"];
-      extraModulePackages = [];
-    };
-
     fileSystems."/" = {
       device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
       fsType = "ext4";
@@ -25,7 +16,6 @@
     swapDevices = [
       {device = "/dev/disk/by-uuid/e9caf6ca-eaf8-4632-8fed-497ac209124f";}
     ];
-
   };
 
 
