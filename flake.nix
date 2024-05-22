@@ -61,8 +61,9 @@
     #Also by...
     robo-nyx = {
       flake = false;
-#      url = "github:Spacebar-Cowboys/RoboNyx";
-            url = "path:/home/nerd/Source/RoboNyx";
+      url = "github:Spacebar-Cowboys/RoboNyx?nvidia";
+      #    url = "github:Spacebar-Cowboys/RoboNyx";
+      #            url = "path:/home/nerd/Source/RoboNyx";
       #      url = "path:/home/sincore/source/nyx-snowfall-template/nyx";
     };
 

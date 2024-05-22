@@ -29,7 +29,7 @@
 
       font = {
         name = "Lexend";
-        size = 12;
+        size = 14;
       };
     };
 
