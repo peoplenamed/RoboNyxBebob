@@ -1150,17 +1150,14 @@
     "robo-nyx": {
       "flake": false,
       "locked": {
-        "lastModified": 1716151899,
-        "narHash": "sha256-74GNj6YBXFAEIkqvHqME8F1d5cRZG0Mbg1oMmyMIKFU=",
-        "owner": "Spacebar-Cowboys",
-        "repo": "RoboNyx",
-        "rev": "7449c706e881245b699eb72d6a6d9869df9b5016",
-        "type": "github"
+        "lastModified": 1716339693,
+        "narHash": "sha256-bcsz6HD94jjD/jsI7Er4qnqeXq28mdVbqAvvjH9n/Zs=",
+        "path": "/home/nerd/Source/RoboNyx",
+        "type": "path"
       },
       "original": {
-        "owner": "Spacebar-Cowboys",
-        "repo": "RoboNyx",
-        "type": "github"
+        "path": "/home/nerd/Source/RoboNyx",
+        "type": "path"
       }
     },
     "root": {
