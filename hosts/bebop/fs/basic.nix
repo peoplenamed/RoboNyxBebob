@@ -15,11 +15,11 @@
   #      {device = "/dev/disk/by-uuid/e9caf6ca-eaf8-4632-8fed-497ac209124f";}
   #    ];
 
-  swapDevices = [
-    {
-      #      device = "/dev/nvme0n1p7";
-      device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
-      #      size = 32 * 1024;
-    }
-  ];
+  # swapDevices = [
+  #   {
+  #      device = "/dev/nvme0n1p7";
+  #     device = "/dev/disk/by-uuid/a003918f-97a3-4f24-a4b7-9748e70cadd3";
+  #      size = 32 * 1024;
+  #   }
+  # ];
 }
