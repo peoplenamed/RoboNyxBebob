@@ -29,7 +29,7 @@
 
       font = {
         name = "Lexend";
-        size = 14;
+        size = 12;
       };
     };
 
@@ -37,8 +37,8 @@
       theme = {
         name = "Catppuccin-Mocha-Dark";
         package = pkgs.catppuccin-kde.override {
-          flavour = ["mocha"];
-          accents = ["blue"];
+          flavour = ["latte"];
+          accents = ["mauve"];
           winDecStyles = ["modern"];
         };
       };
