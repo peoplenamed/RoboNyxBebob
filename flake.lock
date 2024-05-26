@@ -69,11 +69,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1716394172,
-        "narHash": "sha256-B+pNhV8GFeCj9/MoH+qtGqKbgv6fU4hGaw2+NoYYtB0=",
+        "lastModified": 1716431128,
+        "narHash": "sha256-t3T8HlX3udO6f4ilLcN+j5eC3m2gqsouzSGiriKK6vk=",
         "owner": "nix-community",
         "repo": "disko",
-        "rev": "23c63fb09334c3e8958b57e2ddc3870b75b9111d",
+        "rev": "7ffc4354dfeb37c8c725ae1465f04a9b45ec8606",
         "type": "github"
       },
       "original": {
@@ -434,11 +434,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1715930644,
-        "narHash": "sha256-W9pyM3/vePxrffHtzlJI6lDS3seANQ+Nqp+i58O46LI=",
+        "lastModified": 1716457508,
+        "narHash": "sha256-ZxzffLuWRyuMrkVVq7wastNUqeO0HJL9xqfY1QsYaqo=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "e3ad5108f54177e6520535768ddbf1e6af54b59d",
+        "rev": "850cb322046ef1a268449cf1ceda5fd24d930b05",
         "type": "github"
       },
       "original": {
@@ -854,11 +854,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1715826480,
-        "narHash": "sha256-e+DQFT2HS6pFaHPfmbjA6F9zZQPdEuLeJYz5rfpXXWY=",
+        "lastModified": 1716431440,
+        "narHash": "sha256-331cJMya1uuIKaq6wWfrHmBbg/cE7LW6d7W3CMornzQ=",
         "owner": "nixpak",
         "repo": "nixpak",
-        "rev": "d66f9e3ce18e9de5259e2c8c3c9a7ff31dc2945f",
+        "rev": "809ba0a420bc57c6eca2f5fdfef9919604c8903f",
         "type": "github"
       },
       "original": {
@@ -1046,11 +1046,11 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1716340745,
-        "narHash": "sha256-LHD61tGWQAe9+ccDBtxjyxsiJIfjaygFWmdHWgFwCqU=",
+        "lastModified": 1716599849,
+        "narHash": "sha256-akMePrzZlfqhxl1mEsMY1Ld0jZiNOOg6rCSd4W4yQ7M=",
         "owner": "NotAShelf",
         "repo": "nyxpkgs",
-        "rev": "87d9ce19dd0b8ec2cca3621357bc2a9be19a32a6",
+        "rev": "2ba873f7fb38a51f91ae533b47a568d6365763ad",
         "type": "github"
       },
       "original": {
@@ -1150,11 +1150,11 @@
     "robo-nyx": {
       "flake": false,
       "locked": {
-        "lastModified": 1716342359,
-        "narHash": "sha256-DPtszW42pu/JtFEJzOdN3WZoPe1Gd9CNj2phHLvl70w=",
+        "lastModified": 1716502498,
+        "narHash": "sha256-FHgj7SvOkztjxGEt5wMLFCwmQoBcFElTjgBNgvlQrW8=",
         "owner": "Spacebar-Cowboys",
         "repo": "RoboNyx",
-        "rev": "bfdd2677bc95c66a7b2ad942c4e40b5e38c00845",
+        "rev": "564dc1d661fe89fc0a69b3e32393116de3baec0a",
         "type": "github"
       },
       "original": {

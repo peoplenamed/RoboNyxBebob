@@ -1,6 +1,8 @@
 {
   description = "Robo Squad monorepo for everything NixOS";
 
+  #version = "0.0.0.0";
+
   outputs = {flake-parts, ...} @ inputs:
     flake-parts.lib.mkFlake {inherit inputs;} ({withSystem, ...}: {
       # systems for which the attributes of `perSystem` will be built
