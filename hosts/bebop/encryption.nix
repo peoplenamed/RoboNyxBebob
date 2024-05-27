@@ -1,14 +1,10 @@
-{
-  config,
-  lib,
-  ...
-}: {
+{lib, ...}: {
   # mildly improves performance for the disk encryption
-#  boot.initrd.availableKernelModules = [
-#    "aesni_intel"
-#    "cryptd"
-#    "usb_storage"
-#  ];
+  #  boot.initrd.availableKernelModules = [
+  #    "aesni_intel"
+  #    "cryptd"
+  #    "usb_storage"
+  #  ];
 
   services.lvm.enable = lib.mkForce false;
 

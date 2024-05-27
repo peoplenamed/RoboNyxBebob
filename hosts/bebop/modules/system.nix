@@ -1,7 +1,7 @@
 {
   modules.system = {
     mainUser = "nerd";
-#    fs = ["btrfs" "ext4" "vfat" "ntfs"];
+    #    fs = ["btrfs" "ext4" "vfat" "ntfs"];
     fs = ["ext4" "vfat" "ntfs"];
     impermanence.root.enable = false;
     autoLogin = false;
