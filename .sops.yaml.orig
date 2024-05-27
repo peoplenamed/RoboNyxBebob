@@ -1,0 +1,39 @@
+keys:
+<<<<<<< HEAD
+  - &admin_nerd age1ne8tx80l6lwgds644jpuvp4hfeyayuwh23lae3ull6xfysfp6efqgrc42f
+  - &server_bebop age1cec9wu3fpf07xve6vg44h356vwea6n8v7rvw0jp94waw9up5a94sl0atz0
+=======
+  - &admin_sincore age10rvdume3yfwjxu2wc64dmkmc06qsm7fe0fvrpqt8mdrdksqx75vspwns56
+  - &server_sushi age10e6ptnwuy76r2rx7cncp5gvh06eghvdungnhrkkea8t32caxjdxshwcy83
+>>>>>>> 60966a3b4723f3bd490546e1d6fefb0d6d759c20
+creation_rules:
+  - path_regex: secrets/default.yaml$
+    key_groups:
+      - age:
+<<<<<<< HEAD
+          - *admin_nerd
+          - *server_bebop
+  - path_regex: secrets/tailscale/default.yaml$
+    key_groups:
+      - age:
+          - *admin_nerd
+          - *server_bebop
+  - path_regex: secrets/networking/default.yaml$
+    key_groups:
+      - age:
+          - *admin_nerd
+          - *server_bebop
+=======
+          - *admin_sincore
+          - *server_sushi
+  - path_regex: secrets/tailscale/default.yaml$
+    key_groups:
+      - age:
+          - *admin_sincore
+          - *server_sushi
+  - path_regex: secrets/networking/default.yaml$
+    key_groups:
+      - age:
+          - *admin_sincore
+          - *server_sushi
+>>>>>>> 60966a3b4723f3bd490546e1d6fefb0d6d759c20

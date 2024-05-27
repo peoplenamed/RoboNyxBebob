@@ -1,0 +1,16 @@
+let
+  # Define any inherited or required utilities and values
+  #DON'T CHANGE THIS! It's used as a refrence point from the main nyx Repo for things like serets
+  flakeRoot = ./../.;
+
+  #Chnage this :)
+<<<<<<< HEAD
+  mainUser = "nerd";
+=======
+  mainUser = "sincore";
+>>>>>>> 60966a3b4723f3bd490546e1d6fefb0d6d759c20
+  #Anything you add in this file will be globally avaliable under self.globals
+in {
+  inherit flakeRoot;
+  inherit mainUser;
+}

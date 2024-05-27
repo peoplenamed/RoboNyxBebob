@@ -1,8 +1,6 @@
 {
   description = "Robo Squad monorepo for everything NixOS";
 
-  #version = "0.0.0.0";
-
   outputs = {flake-parts, ...} @ inputs:
     flake-parts.lib.mkFlake {inherit inputs;} ({withSystem, ...}: {
       # systems for which the attributes of `perSystem` will be built
@@ -21,7 +19,7 @@
 
         # parts of the flake
         #        ./nyx/flake/apps # apps provided by the flake
-        #        "${inputs.robo-nyx}/flake/checks" # checks that are performed on `nix flake check`
+        "${inputs.robo-nyx}/flake/checks" # checks that are performed on `nix flake check`
         "${inputs.robo-nyx}/flake/lib" # extended library on top of `nixpkgs.lib`
         "${inputs.robo-nyx}/flake/modules" # nixos and home-manager modules provided by this flake
         "${inputs.robo-nyx}/flake/pkgs" # packages exposed by the flake
@@ -63,10 +61,8 @@
     #Also by...
     robo-nyx = {
       flake = false;
-      #   url = "github:Spacebar-Cowboys/RoboNyx?nvidia";
       url = "github:Spacebar-Cowboys/RoboNyx";
-      # url = "path:/home/nerd/Source/RoboNyx";
-      #      url = "path:/home/sincore/source/nyx-snowfall-template/nyx";
+      #      url = "path:/home/sincore/source/RoboNyx-template/robo-nyx";
     };
 
     # Home Manager
@@ -184,9 +180,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # spicetify for theming spotify
-    spicetify = {
-      url = "github:the-argus/spicetify-nix";
+    # A collection of utilities to generate nixos images in other formats. With this tool, we can easily customize our USB image.
+    nixos-generators = {
+      url = "github:nix-community/nixos-generators";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
