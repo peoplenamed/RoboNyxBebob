@@ -1,6 +1,6 @@
 {
   inputs,
-  pkgs,
+  #pkgs,
   ...
 }: {
   imports = [
@@ -9,8 +9,8 @@
   ];
 
   config = {
-    systemPackages = with pkgs; [
-      meld
-    ];
+    #systemPackages = with pkgs; [
+    #  meld
+    #];
   };
 }
