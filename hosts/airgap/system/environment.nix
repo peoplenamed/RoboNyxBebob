@@ -2,6 +2,9 @@
   environment = {
     # Yubikey tooling
     systemPackages = with pkgs; [
+      polkit
+      caligula
+
       yubikey-personalization
       cryptsetup
       pwgen
